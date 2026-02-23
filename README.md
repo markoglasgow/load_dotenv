@@ -12,6 +12,12 @@ load_dotenv.bat
 
 The environment variables from the `.env` file will be set in your current shell. Any lines which are whitespace or have a `#` character in front will be ignored.
 
+Equivalent of running:
+```
+export $(egrep -v '^#' .env | xargs)
+```
+... on Unix. 
+
 ## Security
 
 Code was one-shotted with ChatGPT and hasn't been audited for security problems. Do not run this in directories you don't trust, as it is probably possible to escape the shell command and run malicious commands. 
