@@ -1,3 +1,6 @@
 
 /x64
 /.vs
+/load_dotenv/load_dotenv.vcxproj.user
+/load_dotenv/load_dotenv.vcxproj.filters
+/load_dotenv/x64
