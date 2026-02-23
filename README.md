@@ -4,7 +4,7 @@ Small script and utility to load environment variables from `.env` files on Wind
 
 ## Usage 
 
-Copy `load_dotenv.bat` and `load_dotenv_helper.exe` to someplace in your path. Then in any directory with a `.env` file simply run:
+Copy [load_dotenv.bat](https://github.com/markoglasgow/load_dotenv/releases/) and [load_dotenv_helper.exe](https://github.com/markoglasgow/load_dotenv/releases/) to someplace in your `PATH`. Then in any directory with a `.env` file simply run:
 
 ```
 load_dotenv.bat
