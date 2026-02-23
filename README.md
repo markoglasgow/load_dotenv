@@ -1,4 +1,4 @@
-# .env Environment Variable Loader Helper for Windows
+# load_dotenv - .env Environment Variable Loader Helper for Windows
 
 Small script and utility to load environment variables from `.env` files on Windows.
 
